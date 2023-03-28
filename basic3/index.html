@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>블럭,인라인</title>
+    <style> /* 단축키h100 +tap(height: 100px;) w100+tap(width:100px) */
+        *{margin:0;padding:0;}
+        .one{background-color: gold;width:100px;height:50px;}
+        .inline{background-color: darkviolet;width:100px;height:100px;}
+
+        .two{border:1px solid red;}
+        .two span{background-color: lightgreen;}
+        .three{}
+        .three span{display: inline-block;
+        background-color: tomato;
+    width: 150px;height: 30px;}
+    .inline-block img{width: 200px;}
+    .inline-block button{width: 100px;}
+   
+    p a{background-color: darkkhaki;}
+     </style>
+
+</head>
+
+<body>
+    <div class="one">block요소</div>
+    <span class="inline">inline요소</span>
+
+<div class="two">블럭요소 안에 <span>인라인요소를 </span> 적용합니다</div>
+
+<div class="three">블럭요소 안에 <span>인라인요소를 </span> 적용합니다</div>
+
+<div>
+    <h4>위첨자 태그</h4>
+    <p>2<sup>n</sup></p>
+    <h4>아래첨자 태그</h4>
+    <p>h<sub>2</sub>O</p>
+    <!-- 화학기호 만들때 다시는 안씀 -->
+
+</div class="inlineblock">
+<h4>인라인요소 소개</h4>
+<p>글자의  <b>굵기</b></p>
+<p>글자의  <strong>굵기(중요한내용 명시)</strong></p> 
+<!-- 시각장애인이 음성으로 들을때 strong은 중요내용이라고 말해줌 -->
+<hr>
+<p>기울림체 글자를 <i>기울림</i></p>
+<p>기울림체 글자를 <em>기울림(중요한 내용임을 명시)</em> 
+<p><a href="https://www.naver.com/" target="_blank">링크연결</a></p>
+</div>
+
+<div class="inline-block">
+    <h4>인라인 요소 중 공간을 인식함</h4>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQav49ztbNG83GZq1TYjM7hoVfqMWbQlfLGDA&usqp=CAU" alt="">
+    <hr>
+    <button>클릭</button>
+</div>
+
+
+</body>
+
+</html>
