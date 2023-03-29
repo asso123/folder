@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* 주석처리 */
+*{margin: 0;padding: 0;}
+h1{color: blue;}
+
+ul, li, ol{list-style: none;}
+
+li{
+    /* 나의 공간;넓이+패딩+선 */
+    /* 나의 공간;300+(20+20)+(1+1) */
+
+    /* border: 1px solid blue; */
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: blue; */
+
+    border top: 1px;
+    border-bottom: 3px solid blue;
+    padding: 10px;
+    width: 300px;
+    box-sizing: border-box;/* 공간안에 패딩와 보더까지 포함 */
+    margin: 20px;} /* li밖의 공간 */
+
+    .m{}
+    .m span{border: 1px solid red;
+    margin: 10px;}
+
+
+    .mp{}
+    .mp .one{border: 1px solid yellow;
+             width: 200px;
+             padding: 30px;
+             /* margin-left: auto;
+             margin-right: auto; */
+             margin: 0 auto;}
+
+    .mp .two{border: 1px solid greenyellow;
+             width: 200px;
+             padding: 10px 20px 30px 40px;}
+          /* padding: 위 오른쪽 아래 왼쪽;} */
+          /* paddin: 10px 20px 30px; 좌 우 아래 
+             paddin: 10px 20px; 상하 좌우 */
+
+             .dl{margin-top: 30px;}
+             .dl dl{border-top: 1px solid gray;}
+            
