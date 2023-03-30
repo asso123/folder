@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+*{margin: 0;padding: 0;}
+
+.wrap{width: 900px;
+      margin:0 auto;/* 상하 좌우  가운데로 맞춰줌*/
+      padding: 10% 0;}
+
+.wrap>div{margin-top: 50px; border-top: 1px solid #ccc;}
+
+.wrap>div h2{text-align: center;margin: 10px 0;}
+
+h1{text-align: center; /* 텍스트의 정렬: 가운데 */}
+
+
+.table1{}
+.table1 table{border: 1px solid #ccc;width: 100%;}
+.table1 table tr{border: 1px solid #ccc;}
+.table1 table tr th{border: 1px solid #ccc;}
+.table1 table tr td{border: 1px solid #ccc;}
+
+
+
+.table1-2 table{width: 100%;border: 1px solid #ccc;
+text-align: center;}
+.table1-2 table tr{border: 1px solid #ccc;}
+.table1-2 table tr th{border: 1px solid #ccc;}
+.table1-2 table tr td{border: 1px solid #ccc;}
+
+
+
+.table2{background-color: beige;}
+.table2 table{width: 100%;border: 1px solid #ccc;
+              text-align: center;
+              border-collapse:collapse;/* 표의 선사이의 공간을 없애줌 */}
+.table2 table tr{}
+.table2 table tr:nth-child(1){/* 자식의 tr 중에 첫번째 */border-bottom: 5px double#000;}
+.table2 table tr:nth-child(2){height: 100px;}
+.table2 table tr th{border: 1px solid #ccc;}
+.table2 table tr th td{border: 1px solid #ccc;}
+.table2 table tr th:nth-child(1){width: 20%;}
+.table2 table tr th:nth-child(2){width: 10%;}
+.table2 table tr th:nth-child(3){width: 70%;}
+
+
+
+.table3{}
+.table3 table{border-collapse: collapse;width: 100%;text-align: center;}
+.table3 table,
+.table3 table th,
+.table3 table td{border: #ccc;}
+
+
+
+.table4 table{border-collapse: collapse;width: 100%;text-align: center;}
+.table4 table,
+.table4 table th,
+.table4 table td{border: #ccc;}
+
+
+
+.table5 table{border-collapse: collapse;width: 100%;text-align: center;}
+.table5 table,
+.table5 table th,
+.table5 table td{border: #ccc;}
+
+
+.table6 table{border-collapse: collapse;width: 100%;text-align: center;}
+.table6 table,
+.table6 table th,
+.table6 table td{border: #ccc;}
